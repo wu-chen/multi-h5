@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状结合</title>
+    <defs>
+        <linearGradient x1="0%" y1="6.0546875%" x2="100%" y2="93.9453125%" id="linearGradient-1">
+            <stop stop-color="#794C0E" offset="0%"></stop>
+            <stop stop-color="#442506" offset="100%"></stop>
+        </linearGradient>
+        <path d="M11.4769378,2.58443411 L11.4859656,2.59343034 C11.883186,2.98926465 12.1052684,3.51464474 12.1052684,4.07600976 C12.1052684,4.63737478 11.883186,5.16275487 11.4859656,5.55858918 L10.7583299,6.28548491 L13.8187329,9.16967764 L15.3155318,7.67810198 C15.8048352,7.19050608 16.5270542,7.06995654 17.146357,7.39202173 C17.7656598,7.70509069 18.0888528,8.36001655 17.9787144,9.04013186 L16.8412195,15.7189362 C16.7202478,16.445832 16.064834,17 15.2974763,17 L4.70252365,17 C3.93516597,17 3.27975223,16.4566274 3.15878055,15.7009438 L2.02128563,9.03113563 C1.91114723,8.34922107 2.23434023,7.69609445 2.85364302,7.3830255 C3.47294581,7.06995654 4.19335926,7.17071437 4.68446818,7.66910575 L6.18126705,9.1606814 L9.24167005,6.27648868 L8.50139558,5.54959294 C7.71598242,4.72913637 7.72501016,3.41208766 8.52847879,2.61142281 C9.33194743,1.81075795 10.6554137,1.79096624 11.4769378,2.58443411 Z M10,9.93798231 L8.63719717,12.4347826 L10,14.9315829 L11.3628028,12.4347826 L10,9.93798231 Z" id="path-2"></path>
+        <filter x="-21.9%" y="-16.7%" width="143.8%" height="146.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="一级界面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-我的-女-已真人认证" transform="translate(-34.000000, -199.000000)" fill-rule="nonzero">
+            <g id="形状结合" transform="translate(34.000000, 199.000000)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>
